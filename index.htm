@@ -11,24 +11,24 @@
     <div id = "ContainerPrincipal">
         <input type="string" id = "EntradaDados" placeholder="0" disabled="true">
         <div class = "BotoesOperacoes">
-            <input onclick="addValor('+')" type="button" value="+">
-            <input onclick="addValor('-')" type="button" value="-">
-            <input onclick="addValor('*')" type="button" value="*">
-            <input onclick="addValor('/')" type="button" value="/">
+            <span onclick="insereValorClicado('+')" type="button" value="+">+</span>
+            <span onclick="insereValorClicado('-')" type="button" value="-">-</span>
+            <span onclick="insereValorClicado('*')" type="button" value="*">*</span>
+            <span onclick="insereValorClicado('/')" type="button" value="/">/</span>
         </div>        
         <div class = "TecladoNumerico">
-            <input onclick="addValor('1')" type="button" value="1">
-            <input onclick="addValor('2')" type="button" value="2">
-            <input onclick="addValor('3')" type="button" value="3">
-            <input onclick="addValor('4')" type="button" value="4">
-            <input onclick="addValor('5')" type="button" value="5">
-            <input onclick="addValor('6')" type="button" value="6">
-            <input onclick="addValor('7')" type="button" value="7">
-            <input onclick="addValor('8')" type="button" value="8">
-            <input onclick="addValor('9')" type="button" value="9">
-            <input onclick="Limpar()" type="button" value="AC">
-            <input onclick="addValor('0')" type="button" value="0">
-            <input onclick="Calcular()" type="button" value="=">
+            <span onclick="insereValorClicado('1')" type="button" value="1">1</span>
+            <span onclick="insereValorClicado('2')" type="button" value="2">2</span>
+            <span onclick="insereValorClicado('3')" type="button" value="3">3</span>
+            <span onclick="insereValorClicado('4')" type="button" value="4">4</span>
+            <span onclick="insereValorClicado('5')" type="button" value="5">5</span>
+            <span onclick="insereValorClicado('6')" type="button" value="6">6</span>
+            <span onclick="insereValorClicado('7')" type="button" value="7">7</span>
+            <span onclick="insereValorClicado('8')" type="button" value="8">8</span>
+            <span onclick="insereValorClicado('9')" type="button" value="9">9</span>
+            <span onclick="limpar()" type="button" value="AC">AC</span>
+            <span onclick="insereValorClicado('0')" type="button" value="0">0</span>
+            <span onclick="calcular()" type="button" value="=">=</span>
         </div>
     </div>  
     <script src="app.js"></script>
