@@ -27,7 +27,6 @@ document.onkeypress = function validarTeclaPressionada(){
 	{
 		inserirValorNaTela(teclaConvertidaChar)
 		ultimoCaractereDoValor = teclaConvertidaChar
-		console.log(ultimoCaractereDoValor)
 	}
 	else if(teclaEmASCII == 13)
 	{
